@@ -1,0 +1,9 @@
+<?php
+/**
+ * @var $block \Foggyline\Unitly\Block\Hello
+ */
+?>
+<?php $name = $block->getRequest()->getParam('name') ?>
+<div class="greeting">
+    <?php echo $block->greeting($name) ?>
+</div>
