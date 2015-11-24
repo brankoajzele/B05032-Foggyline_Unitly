@@ -16,7 +16,7 @@ class Shout extends \Foggyline\Unitly\Controller\Hello
     }
 
     /**
-     * http://magento2.loc/index.php/foggyline_unitly/hello/shout
+     * http://magento2.ce/index.php/foggyline_unitly/hello/shout
      */
     public function execute()
     {
